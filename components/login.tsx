@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export const Login = () => {
   return (
-    <div className="container">
-      <form className="flex flex-col ">
+    <div className="container flex flex-col">
+      <form className="">
         <label>Email</label>
         <input />
         <input type="password" />

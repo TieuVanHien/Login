@@ -1,6 +1,6 @@
 package:
-  - "pages"
-  - "server"
-  - "styles"
-  - "components"
-  -".vscode"
+  - 'pages'
+  - 'server'
+  - 'styles'
+  - 'components'
+  - ' .vscode'
