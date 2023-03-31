@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const Login = () => {
   return (
     <div className="container">
-      <form>
+      <form className="flex flex-col ">
         <label>Email</label>
         <input />
         <input type="password" />
