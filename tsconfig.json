@@ -18,6 +18,11 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "/**/*{ts, tsx}"],
+  "exclude": ["node_modules"],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 80
+  }
 }
