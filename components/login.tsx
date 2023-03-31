@@ -9,9 +9,7 @@ export const Login = () => {
         <input />
         <input type="password" />
         <button type="submit">Login</button>
-        <Link href="/">
-          <a>New User?</a>
-        </Link>
+        <Link href="/">New User?</Link>
       </form>
     </div>
   );
